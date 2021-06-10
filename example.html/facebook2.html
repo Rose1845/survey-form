@@ -39,6 +39,36 @@
     .longer-input{
         width: 100%;
     }
+    #male{
+        border:1px solid rgba(0, 0, 139, .1);
+    }
+    #female{
+        border:1px solid rgba(0, 0, 139, .1);
+    }
+    #custom{
+        border:1px solid rgba(0, 0, 139, .1);
+    }
+    #click{
+        font-size:12px ;
+        color:rgb(116, 113, 113)
+    }
+    #sign{
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(57, 165, 57);
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        padding: 15px;
+        font-weight: bolder;
+       
+    }
+    .dropdown{
+
+    font-size: small;
+    
+
+    }
 </style>
 <body style="background-color: rgb(240, 248, 255, 0.3);">
     <div class="header">
@@ -58,6 +88,7 @@
         <span><input type="text"placeholder="Mobile Number or Email Address"class="input-text longer-input"></span>
         <br>
         <span><input type="text"placeholder="New password"class="input-text longer-input"></span>
+        <br>
         <p id="date">Date of Birth</p>
         <div class="dropdown">
             <select id="date">
@@ -109,16 +140,42 @@
 
             </select>
             <select id="year">
-                
+                <option value="1999">1999</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+
             </select>
         
         </div>
+        <br>
         <p id="gender">Gender</p>
+        <br>
         <input type="radio"id="male"name="gender"value="male">Male
         <input type="radio"id="female"name="gender"value="female">Female
         <input type="radio"id="custom"name="custom"value="custom">Custom
-
-
+        <p id="click">By clicking Sign Up,you agree to the <span style="color:blue;">Terms</span>,<span style="color:blue;"></span>Policy Data</span> and
+           <br> <span style="color:blue;">Policy Cookies us</span>.You can receive SMS Notification from us <br>and you can choose to leave any time.</span></p>
+           <br>
+           <button id="sign" size="15">Sign Up</button>
     </div>
     </div>
     <div class="footer">
