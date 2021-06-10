@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FORM!</title>
+    <style>
+        body{
+          display: flex;
+          align-content: center;
+          flex-direction: column;
+        }    
+        
+    
+
+      html{
+        align-items: flex-end;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: normal;
+        font-size: medium;
+      }
+    
+      #title{
+      font-size: 40px;
+      background-color: coral;
+      background-size: 2vmin;
+      text-decoration-color: aquamarine;
+      text-align: center;
+      }
+      input{
+        outline: none;
+        padding: 10px;
+        border:2px solid #0076ff;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3),0 7px 21px 0 rgba(0,0,0,0.20);
+      }
+      input::placeholder{
+        color: rgb(131, 84, 30);
+      }
+      textarea{
+        padding: 10px;
+        outline: none;
+        width: 300px;
+        height: 300px;
+        color: white;
+        border-radius: 56px;
+        color: #d1c3dd;
+      }
+      textarea::placeholder{
+        color:white;
+      }
+     #dropdown{
+        color: white;
+        background-color: #173459;
+        padding: 10px;
+        border-radius: 5px;
+     }
+     #submit{
+       text-transform: uppercase;
+       border-radius: 56px;
+       background: #8d4ac4;
+     }
+
+     
+      
+
+    </style>
+  </head>
+  <body>
+      <a class="navbar-brand" href="#">FORM</a>
+    </li>
+<h1 id="title">SURVEY FORM</H1>
+  <form method="POST"id="survey-form">
+      <div class="mb-3">
+        <label for="firstname" class="form-label">FIRSTNAME</label>
+        <input type="text" name="firstName" id="name-label" placeholder="enter your name">
+        <br/>
+      </div>
+      <div class="mb-3">
+        <label for="EMAIL">EMAIL</label>
+        <input type="text" id="email-label" placeholder=" email" >
+        <br/>
+      <div class="mb-3"></div>
+        <label for="AGE">AGE</label>
+        <input type="number" id="age"  placeholder="enter your age"min="25">
+        <h2 id="group">Which group best describe you?
+        <select id="dropdown">
+          <option value="FRONT END">FRONT END</option>
+          <option value="BACK END">BACK END</option>
+          <option value="MOBILE">MOBILE</option>
+          <option value="CYBER SECURITY">CYBER SECURITY</option>
+          <option value="ARTIFICIAL INTELLIGENCE">ARTIFICIAL INTELLIGENCE</option>
+          <option value="MACHINE LEARNING">MACHINE LEARNING</option>
+        </select>
+           
+        </h2>
+      </div>
+        </div>
+      </div>
+      <br/>
+     <input type="radio">GENDER
+      <input type="checkbox"value="gender">Female
+      <input type="checkbox"value="gender">Male
+      <br/>
+      <h3>Give your thoughts on how we can improve <span>EUCOSSA</span></h3>
+      <textarea rows="5"cols="9" placeholder="Text goes here">
+
+      </textarea>
+      <br/>
+      <button type="submit" id="submit" >Submit</button>
+  </form>
+
+  <script src="main2.js"></script>
+    
+  </body>
+  </html>

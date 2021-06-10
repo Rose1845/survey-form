@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .facebook{
+        background-color: rgb(143, 143, 228);
+        border-radius: 20px;
+        padding:10px;
+        display:flex;
+
+    }
+    div h1{
+        font-size: 20px;
+        font-weight: 100;
+        left:30px;
+        top:20px;
+        bottom:20px;
+        color:white;
+    }
+    .navbar{
+        display: flex;
+        left:100px;
+        top:10px;
+        bottom:10px;
+        justify-content: space-around;
+
+    }
+    .mail{
+        border-radius:5px;
+        padding: 5px;
+        position: relative;
+        left:500px;
+        border: 2px solid;
+        
+    }
+    .word{
+        border-radius:5px;
+        padding: 5px;
+        position: relative;
+        left:500px;
+        border: 2px solid;
+        
+    }
+    p{
+        font-size: 15px;
+        position: relative;
+        left:500px;
+
+    }
+    .forgot{
+        text-decoration: none;
+        position: relative;
+        left:480px;
+        top:50px;
+
+    }
+    .forgot:hover{
+        color:blue;
+    }
+    .nav-item{
+        position: relative;
+        left:800px;
+        top:100px;
+        justify-content: space-between;
+    }
+    .create{
+        position: relative;
+        left:800px;
+        top:100px;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .quick{
+        position: relative;
+        left:800px;
+        top:100px; 
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #date{
+        position: relative;
+        right:500px;
+    }
+    #gender{
+        position: relative;
+        nav-right: 300px;
+    }
+</style>
+<body >
+    <div class="facebook">
+       <h1>Facebook</h1>
+        <div class="navbar">
+            <p>Email Address</p>
+            <input class="mail"type="text" max="10"size="15">
+              <a href=""class="forgot">Forgot password?</a>
+            <p>Password</p>
+            <input class="word"type="text">   
+            
+        </div>
+    </div>
+    <div class="yellow"></div>
+    <span class="create">Create an account</span>
+    <br>
+    <span class="quick">It's quick and easy</span>
+    <div class="nav-item">
+        <span><input type="text"placeholder="firstname"class="fname"></span>
+        <span><input type="text"placeholder="Surname"class="sname"></span>
+        <br>
+        <span><input type="text"placeholder="Mobile Number or Email Address"class="mobile"></span>
+        <br>
+        <span><input type="text"placeholder="New password"class="fpass"></span>
+        <p id="date">Date of Birth</p>
+        <p id="gender">Gender</p>
+        <input type="radio"id="male"name="gender"value="male">Male
+        <input type="radio"id="female"name="gender"value="female">Female
+        <input type="radio"id="custom"name="custom"value="custom">Custom
+
+
+    </div>
+</body>    

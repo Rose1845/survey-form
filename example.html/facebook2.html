@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        /* background-color:rgba(128, 128, 128, .1) */
+    }
+    .header{
+        height: 12vh;
+        background-color: darkblue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo {
+        font-weight: bolder;
+        font-size:xx-large;
+    }
+    .body{
+        margin: auto;
+        width: 33.3%;
+        min-height: 88vh;
+        /* background-color:rgba(128, 128, 128, .1) */
+    }
+    .input-text {
+        border: 1px solid rgba(0, 0, 139, .1);
+        margin: 8px auto;
+        height: 30px;
+        border-radius: 5px;
+        width: 48%;
+    }
+    .longer-input{
+        width: 100%;
+    }
+</style>
+<body style="background-color: rgb(240, 248, 255, 0.3);">
+    <div class="header">
+        <div class="logo" style="padding-left: 20px">facebook</div>
+        <div class="actions" style="padding-right: 120px">
+            <button style="background-color:blue; color: white; ">log in to Existing Account</button>
+        </div>
+    </div>
+    <div class="body">
+        <span style="font-size: 40px;">Create an account</span>
+    <br>
+    <span style="font-size: 25px;">It's quick and easy</span>
+    <div >
+        <span><input type="text"placeholder="firstname"class="input-text"></span>
+        <span><input type="text"placeholder="Surname"class="input-text"></span>
+        <br>
+        <span><input type="text"placeholder="Mobile Number or Email Address"class="input-text longer-input"></span>
+        <br>
+        <span><input type="text"placeholder="New password"class="input-text longer-input"></span>
+        <p id="date">Date of Birth</p>
+        <div class="dropdown">
+            <select id="date">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="19">26</option>
+                <option value="20">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+
+
+            </select>
+        </div>
+        <p id="gender">Gender</p>
+        <input type="radio"id="male"name="gender"value="male">Male
+        <input type="radio"id="female"name="gender"value="female">Female
+        <input type="radio"id="custom"name="custom"value="custom">Custom
+
+
+    </div>
+    </div>
+    <div class="footer">
+
+    </div>
+    
+</body>
+</html>
