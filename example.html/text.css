@@ -52,3 +52,18 @@ div input{
     font-weight: 200;
     color: #ffffff;
 }
+.home-content{
+    position:relative;
+    animation-name:myAnimation;
+    animation-duration:2s;
+    animation-direction:reverse;
+    animation-play-state:running;
+}
+@keyfframes myAnimation{
+    from{
+        left:100px;
+    }
+    to{
+        right:100px;
+    }
+}
