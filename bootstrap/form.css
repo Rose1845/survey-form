@@ -1,0 +1,82 @@
+body{
+    margin:auto;
+    box-sizing:border-box;
+    background:aliceblue;
+      
+}
+#title{
+    font-size:20px;
+    font weight:300px;
+    text-align:center;
+    color:blue; 
+}
+#description{
+    font-size:15px;
+    color:black;
+    text-align:center;
+}
+#survey-form{
+    background-image:url("sanfran.jpg");
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    width:400px;
+    height:400px;
+    position:relative;
+    
+
+
+}
+#dropdown{
+    background:blue;
+    font-size:15px;
+    font-weight:200;
+}
+#submit{
+    font-family:sans-serif;
+    padding:10px 30px;
+    margin:3px;
+    font-weight:200;
+    background:green;
+
+}
+#submit:hover{
+    background:yellow;
+}
+#name-label{
+    padding:4px 10px;
+    border:1px solid transparent;
+    border-color:gray;
+}
+#email-label{
+     padding:4px 10px;
+    border:1px solid transparent;
+    border-color:gray;
+
+}
+#number-label{
+     padding:4px 10px;
+      border:1px solid transparent;
+      border-color:gray;
+
+
+}
+label{
+    font-weight:200;
+    font-size:20px;
+}
+form{
+    animation-name:myAnimation;
+    animation-duration:3s;
+
+}
+@keyframes myAnimation{
+    from{
+        background:gold;
+        left:100px;
+    }
+    to{
+        background:green;
+        top:100px;
+    }
+}

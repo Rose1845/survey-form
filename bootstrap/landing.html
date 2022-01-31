@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY</title>
+    <link rel="stylesheet"href="form.css">
+   
+</head>
+<body>
+    <h1 id="title">EUCOSA SURVEY FORM</h1>
+    <P id="description">This is to help improve our activities in EUCOSA</P>
+    <form id="survey-form">
+        <label for="name" id="name">Enter your name:<input type="name"id="name-label" require></label>
+        <br>
+        <label for="email-label" id="name">Enter your email:<input type="name"id="email-label"required></label>
+        <br>
+        <label for="year" id="name">Enter a Number:<input type="name"id="number-label"></label> 
+        <p>Which group best describe your community</p>
+        <select id ="dropdown">
+            <option value>WEB 1</option>
+            <option value>WEB 2</option>
+            <option value>CYBERSECURITY</option>
+            <option value>MACHINE LEARNING</option>
+            <option value>ARTIFICIAL INTELLIGENCE</option>
+    
+        </select>
+        <br>
+        GENDER
+        <input type="radio"name="gender"id="male"value="male">Male
+        <input type="radio"name="gender"id="female"value="female">Female
+        <input type="radio"name="gender"id="custom"value="custom">custom
+        <br>
+        <textarea cols="30"rows="7" placeholder="type here">
+
+        </textarea>
+        <br>
+        <button id="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
